@@ -1,0 +1,70 @@
+@media screen and (max-width: 800px){
+    .nosso-produto .rounded-circle{
+        width: 70%;
+        height: 100%;
+        display:inline;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .margin{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .geleia p{
+        font: bolder;
+        margin-bottom: 0;
+    }
+
+    .col-lg-4{
+        display: flex;
+    }
+
+
+    .card-body{
+        padding:0;
+    }
+
+    .card{
+        background-color:none;
+    }
+
+    .div-contatos{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+
+    .div-botao{
+        display: flex;
+    }
+
+    .botao{
+        background-color: rgb(254, 184, 89);
+        border: solid;
+    }
+
+    .botoes{
+        display: flex;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .lista-on{
+        display: flex;
+    }
+
+    .lista-off{
+        display: none;
+    }
+
+}

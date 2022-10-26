@@ -125,12 +125,33 @@
 
     .rodape{
         height: 100%;
-        background-color: black;
+        background-color: antiquewhite;
         margin-top: 5%;
-        color: rgb(255, 188, 62);
+        color: black;
         display: flex;
         font-size: 11px;
         justify-content: center;
+    }
+
+    .logo-cs{
+        background-color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+        display: inherit;
+    }
+
+    .logo-cs p{
+        font-size: 10px;
+    }
+
+    .logo-cs1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-cs img{
+        width: 15%;
     }
 
 }
